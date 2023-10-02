@@ -41,7 +41,7 @@ with torch.inference_mode():
         if not ret:
             break
         print(frame_num % (30 * 5))
-        interval = 2
+        interval = 5
         if frame_num % (30 * interval) >= 30 * interval - 10:
             cv2.putText(frame, "calculating!!!", (70, 150), cv2.FONT_HERSHEY_PLAIN, 10, (0, 255, 0), 5)
         cv2.imshow("Img", frame)
