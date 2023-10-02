@@ -5,4 +5,5 @@ src*
 Llama*
 TTS/
 segment-anything
+.venv
 
